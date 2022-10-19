@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To Do List</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div
+      class="toast error align-items-center"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">You cannot add blanks to the list!</div>
+        <button
+          type="button"
+          class="btn-close me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <div
+      class="toast success align-items-center"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">Added to the list</div>
+        <button
+          type="button"
+          class="btn-close me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header text-center p-5 bg-dark text-light">
+        <h3 class="mb-5">TO DO LIST</h3>
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control"
+            id="input"
+            placeholder="What are you doing today?"
+          />
+          <button class="btn btn-outline-info" id="btn" type="button">
+            Add to List
+          </button>
+        </div>
+      </div>
+      <div>
+        <ul id="list">
+          <li>go to market</li>
+          <li>study lesson</li>
+          <li>listen music</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/01.js"></script>
+
+    <!-- ****jquery kütüphanesi ekle =>> TOAST çalıştırmak için **** -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
