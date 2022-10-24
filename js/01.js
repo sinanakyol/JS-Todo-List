@@ -6,7 +6,7 @@ let btnDOM = document.querySelector("#btn");
 //MEVCUT LİSTEYİ SİLMEK İÇİN ÇARPI BUTONUNUN OLUŞTURULMASI
 for (let i = 0; i < ullength.length; i++) {
   let closeBtn = document.createElement("span");
-  closeBtn.textContent = "\uF62A";
+  closeBtn.innerHTML = `<i class="bi bi-x"></i>`;
   closeBtn.classList.add("close");
   closeBtn.onclick = removeButton;
   ullength[i].append(closeBtn);
@@ -42,7 +42,7 @@ const addItem = (value) => {
   //SONRADAN EKLENEN LİSTEYİ SİLMEK İÇİN
   liDOM.onclick = check;
   let closeBtn = document.createElement("span");
-  closeBtn.textContent = "\uF62A";
+  closeBtn.innerHTML = `<i class="bi bi-x"></i>`;
   closeBtn.classList.add("close");
   closeBtn.onclick = removeButton;
 
