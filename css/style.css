@@ -27,11 +27,11 @@ li.checked {
   color: #fff;
   text-decoration: line-through;
 }
-li.checked::before {
-  content: "\F633";
+/* li.checked::before {
+  content: "\F26E";
   position: relative;
   padding: 10px;
-}
+} */
 .close {
   padding: 10px 20px;
   position: absolute;
