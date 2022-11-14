@@ -1,7 +1,7 @@
 let listDOM = document.querySelector("#list");
 let ullength = document.getElementsByTagName("li");
 let input = document.querySelector("#input");
-let btnDOM = document.querySelector("#btn");
+let btnDOM = document.querySelector("#btn-add");
 
 //MEVCUT LİSTEYİ SİLMEK İÇİN ÇARPI BUTONUNUN OLUŞTURULMASI
 for (let i = 0; i < ullength.length; i++) {
