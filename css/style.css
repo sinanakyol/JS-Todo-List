@@ -37,6 +37,7 @@ li.checked {
   position: absolute;
   right: 0;
   top: 0;
+  cursor: pointer;
 }
 .close:hover {
   background-color: #f78501;
@@ -47,4 +48,13 @@ li.checked {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+#btn-add {
+  background-color: grey;
+  color: #fff;
+}
+
+#btn-add:hover {
+  background-color: #f78501;
 }
