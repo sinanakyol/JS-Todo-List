@@ -51,10 +51,10 @@ li.checked {
 }
 
 #btn-add {
-  background-color: grey;
-  color: #fff;
+  background-color: #b7c4cf;
 }
 
 #btn-add:hover {
   background-color: #f78501;
+  color: #fff;
 }
